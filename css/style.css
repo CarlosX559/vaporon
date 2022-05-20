@@ -1,0 +1,890 @@
+@font-face {
+    font-family: 'Neusa next pro regular';
+    src: url('../fontes/NeusaNextPro-Regular.otf');
+}
+@font-face {
+    font-family: 'Neusa next pro wide bold';
+    src: url('../fontes/NeusaNextPro-WideBold.otf');
+}
+@font-face {
+    font-family: 'Neusa next pro wide light';
+    src: url('../fontes/NeusaNextPro-WideLight.otf');
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Neusa next pro';
+}
+.container_area_1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.area_center {
+    max-width:1100px;
+    width:100%;
+    
+}
+.area_img img{
+    max-width: 1100px;
+    width: 100%;
+    
+}
+
+.h_mobile {
+    display:none;
+}
+.text_1_area {
+    max-width: 720px;
+    width: 100%;
+}
+.text_1 {
+    max-width: 486px;
+    width: 100%;
+    margin-top: -40px;
+}
+.text_1 p {
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Neusa next pro regular';
+ 
+}
+.container_area_2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.area_center_2 {
+    max-width:1000px;
+    width:100%;
+}
+.area_img_2 img {
+    max-width: 1000px;
+    width: 100%;
+   
+}
+.area_img_2 {
+   margin-top: -330px;
+}
+
+.text_2_area {
+    width: 68%;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+}   
+.text_2 {
+    max-width: 370px;
+    width: 100%;
+}
+.text_2 p {
+    color:#fff;
+    font-size: 34px;
+    font-family: 'Neusa next pro wide bold';
+    font-weight: bold;
+}
+.container_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.area3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 920px;
+}
+.text_3_area {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.text_title {
+    width: 100%;
+    max-width: 445px;
+}
+.text_subtitle {
+    width: 100%;
+    max-width: 432px;
+}
+.text_title h2{
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Neusa next pro wide bold';
+    font-size: 41px;
+    margin: 0px;
+    margin-top: 28px;
+}
+.text_subtitle p {
+    color:#fff;
+    font-family: 'Neusa next pro regular';
+    font-size: 28px;
+    margin-top: 48px;
+}
+.area_img_3 {
+    margin-top: -190px;
+}
+.area_img_3 img{
+    width: 100%;
+    max-width: 380px;
+}
+.text_4_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    margin-top: 60px;
+}
+.text_4_area h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Neusa next pro wide bold';
+    text-align: center;
+    line-height: 34px;
+}
+#back {
+    background-image: url(../img/papel.png);
+    width: 100%;
+    max-width: 1200px;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.area5 {
+    text-align: center;
+}
+.text_title_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.text_title_1_area {
+    max-width: 900px;
+}
+.text_title_1_area h2 {
+    font-family: 'Neusa next pro wide light';
+    font-size: 44px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.text_title_2 {
+    width: 100%;
+    
+}
+.text_title_2 h2 {
+    font-family: 'Neusa next pro wide bold';
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.area_perguntas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.area_pergunta_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-top: 40px;
+}
+.p_1 {
+    max-width: 890px;
+    width: 100%;
+}
+.p_1 p, .p_2 p, .p_3 p, .p_4 p, .p_5 p, .p_6 p {
+    
+    font-family: 'Neusa next pro wide bold';
+    line-height: 38px;
+}
+.p_1 p {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+}
+.btn_1, .btn_2, .btn_3 {
+    max-width: 160px;
+    width: 100%;
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn_3 {
+    margin-bottom: 40px;
+}
+.nome, .email {
+    outline: none;
+    border: 2px solid #fff;
+    border-radius:4px;
+    font-family: 'Neusa next pro wide bold';
+    max-width: 220px;
+    width: 100%;
+    height: 54px;
+    background-color: #48bcd1;
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.nome::placeholder {
+    color: #fff;
+}
+.email::placeholder {
+    color: #fff;
+}
+.form_req {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+input {
+    font-size: 26px;
+    font-family: 'Neusa next pro wide bold';
+    margin: 0px;
+    text-align: center;
+}
+.btn1, .btn2, .btn3, .btn4, .btn6 {
+    font-size: 22px;
+    font-family: 'Neusa next pro wide bold';
+}
+.btn_1 p, .btn_2 p, .btn_3 p {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.area_pergunta_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.p_2 {
+    max-width: 890px;
+    width: 100%;
+}
+.p_2 p {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.btn_4, .btn_5, .btn_6 {
+    width: 100%;
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn_6 {
+    margin-bottom: 40px;
+}
+.btn_4 p, .btn_5 p, .btn_6 p {
+    font-size: 26px;
+    margin: 0px;
+}
+.area_pergunta_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.p_3 {
+    max-width: 660px;
+    width: 100%;
+}
+.p_3 p {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.btn_7, .btn_8, .btn_9 {
+    width: 100%;
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn_9 {
+    margin-bottom: 40px;
+}
+.btn_7 p, .btn_8 p, .btn_9 p {
+    font-size: 26px;
+    margin: 0px;
+}
+
+
+.area_pergunta_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.p_4 {
+    max-width: 660px;
+    width: 100%;
+}
+.p_4 p {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.btn_10, .btn_11, .btn_12 {
+    width: 100%;
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn_12 {
+    margin-bottom: 40px;
+}
+.btn_10 p, .btn_11 p, .btn_12 p {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.area_pergunta_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.p_5 {
+    max-width: 660px;
+    width: 100%;
+}
+.p_5 p {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.row_area {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.row_area img {
+    border: 14px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+    margin:0px 10px;
+}
+
+
+.area_pergunta_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.p_6 {
+    width: 100%;
+}
+.p_6 p {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+.row_area_2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.btn_13, .btn_14 {
+    width: 20%;
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 0px 22px;
+}
+.enviar {
+    height: 54px;
+    background-color: #48bcd1;
+    color:#fff;
+    outline: none;
+    border:2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0px 40px;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Neusa next pro wide bold';
+}
+
+.btn_13 p, .btn_14 p {
+    font-size: 26px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.selected {
+    background-color: #fff;
+    color:#48bcd1;
+}
+footer {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    background-color: #3d6269;
+    height: 96px;
+    margin-top: 40px;
+}
+.area_footer {
+    display: flex !important;
+    width: 100%;
+    max-width: 760px;
+    align-items: center;
+    justify-content: center;
+}
+.area_footer img {
+    width: 12%;
+}
+.area_footer p {
+    font-size: 22px;
+    font-family: 'Arial';
+    color:#fff;
+    margin: 0px 20px;
+}
+.action {
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+.img5 {
+    transition: ease-in 0.3s;
+}
+.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+@keyframes er {
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+}
+.erro1, .erro2, .erro3, .erro4,
+.erro5, .erro6 {
+    animation: er ease 2s;
+    animation-duration: 2s;
+    display: none;
+    color: #fff;
+    padding: 7px;
+    border-radius: 22px;
+    font-family: 'Neusa next pro wide light';
+    background-color: #ff574d;
+}
+.erro5, .erro6 {
+    margin-top: 20px;
+}
+.carousel {
+    width: 100%;
+}
+#carousel-controle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+.row {
+    justify-content: center;
+   
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 75px !important;
+    height: 75px  !important;
+   
+}
+.carousel-control-prev {
+    left: 90px !important;
+}
+.carousel-control-next {
+    right: 90px !important;
+}
+.title_slide h2{
+    font-family: 'Neusa next pro wide light', 'Nunito';
+    font-size: 46px;
+    color: #3d6269;
+    text-align: center;
+}
+.title_type h2 {
+    font-family: 'Neusa next pro wide bold', 'Nunito';
+    font-size: 42px;
+    color: #48bcd1;
+    text-transform:uppercase;
+}
+.img-center {
+    width: 52%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.carousel-inner {
+    height: 476px;
+}
+.texts_align {
+    justify-content: center;
+}
+.texts_align_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 81%;
+}
+.texts_align_3, .texts_align_4, .texts_align_5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 81%;
+}
+.texts_left {
+    display: flex;
+    flex-direction: column;
+    float:left;
+    text-align: end;
+}
+.texts_left p, .texts_right p {
+    font-family: 'Neusa next pro regular';
+    font-size: 26px;
+    font-weight: 100;
+    color: #48bcd1;
+    text-transform: uppercase;
+    margin: 0px; /*Verificar como irá ficar nos outros*/
+}
+
+.texts_right {
+    display: flex;
+    flex-direction: column;
+    float:right;
+    text-align: start;
+}
+
+.area_mobile, .area_mobile_2, .area_mobile_3, .area_mobile_5 {
+    display:none;
+}
+
+@media(max-width: 2560px ) {
+    .text_2_area {
+        width: 36%;
+    }
+    
+}
+@media(max-width: 1366px) {
+    .text_2_area {
+        width: 68%;
+    }
+}
+@media(max-width: 1024px ) {
+    .text_2_area {
+        width: 100%;
+        justify-content: center;
+    }
+    .carousel-inner {
+        height: 680px;
+        margin-top: 30px;
+    }
+    .texts_align_2, .texts_align_3 {
+        width:100%;
+        justify-content:center;
+    }
+    .texts_align_4 {
+        width: 98%;
+        justify-content:center;   
+    }
+    .texts_align_5 {
+        width: 100%;
+        justify-content:center;
+    }
+    #back {
+        height: 748px;
+    }
+    .area_mobile {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .area_mobile_2, .area_mobile_3 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+    .area_mobile_5 {
+        display: flex;
+        align-items: center;
+        width: 104%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .texts_right, .texts_left {
+        display:none;
+    }
+    .texts_align {
+        justify-content: center;
+    }
+    .texts_left_m {
+        display: flex;
+        flex-direction: column;
+        float:left;
+        text-align: end;
+    }
+    .texts_left_m_3 {
+        display: flex;
+        flex-direction: column;
+        float:left;
+        text-align: center;
+    }
+    .texts_left_m p, .texts_right_m p, .texts_left_m_3 p {
+        font-family: 'Neusa next pro regular';
+        font-size: 22px;
+        font-weight: 100;
+        color: #48bcd1;
+        margin: 0px;
+    }
+    
+    .texts_right_m {
+        display: flex;
+        flex-direction: column;
+        float:right;
+        text-align: start;
+    }
+
+    .area_img_2 img {
+        max-width: 780px;
+    }
+    .area_img_2 {
+        margin: -100px 20px;
+    }
+    .row_area {
+        display: flex;
+        flex-direction: column;
+        width: 42%;
+        
+    }
+    .row_area img {
+        margin-bottom: 20px;
+    }
+    .container_3  {
+        margin: 150px 20px;
+       
+    }
+    .area3 {
+        flex-wrap: wrap;
+    }
+    .text_1 p {
+        margin: 20px 20px;
+    }
+    .text_1_area {
+        display:flex;
+        width:100%;
+        max-width:none;
+        align-items: center;
+        justify-content: center;
+    }
+    .text_2 {
+    max-width: 570px;
+    text-align: center;
+    }
+    .text_1 {
+    max-width: 760px;
+    text-align: center;
+}
+ 
+}
+@media(max-width:864px ) {
+    .area_img_3 {
+        margin-top: 0px;
+    }
+    .area3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .text_2 p {
+        margin: 50px 20px;
+    }
+    .text_title_1 h2 {
+        margin: 15px 20px;
+    }
+    .carousel-control-prev {
+        left: 0px !important;
+    }
+    .carousel-control-next {
+        right: 0px !important;
+    }
+    
+}
+@media(max-width:720px) {
+    input[type="button"] {
+        font-size:16px;
+    }
+    .nome, .email {
+        font-size:16px;
+    }
+     .img-center {
+        width: 100%;
+    }
+    
+}
+@media(max-width: 553px ) {
+   
+    .row_area {
+        width: 65%;
+    }
+    .p_5 p {
+    margin: 25px 25px;
+    }
+    
+    .p_6 p {
+        margin: 30px 25px;
+    }
+    .area_pergunta_5 {
+        margin-bottom: 20px;
+    }
+
+}
+@media(max-width:425px) {
+    input[type="button"] {
+       max-width: 340px;
+       font-size:11px;
+    }
+    
+    .w {
+        display:none;
+    }
+    .h_mobile {
+        display: flex;
+        width: 100%;
+    }
+       .nome, .email {
+        font-size:12px;
+    }
+    .area_pergunta_1 {
+        padding:0px 20px;
+    }
+    .btn6, .enviar {
+        width: 40%;
+        
+    }
+    .text_2 p {
+        font-size:30px;
+        margin: 20px 20px;
+    }
+      .text_1 p {
+    margin: 40px 20px;
+    }
+    .img-fluid {
+        max-width: 50% !important;
+    }
+    .area_mobile {
+        margin-top:30px;
+    }
+    .area_img_2 {
+    margin: -40px 20px;
+    }
+    .container_3 {
+        margin: 70px 20px;
+    }
+    .p_1 p, .p_2 p, .p_3 p, .p_4 p, .p_5 p, .p_6 p {
+        font-size: 22px;
+    }
+    .text_title_2 h2 {
+        font-size: 28px;
+    }
+    .text_title_1_area h2 {
+        font-size: 34px;
+    }
+  
+    .text_4_area h2 {
+        font-size: 26px;
+    }
+    .text_title h2 {
+        font-size: 26px;
+    }
+    .text_subtitle p {
+        font-size: 26px;
+    }
+  
+}
+@media(max-width:375px) {
+    input[type="button"] {
+       max-width: 340px;
+       font-size:11px ;
+    }
+ 
+}

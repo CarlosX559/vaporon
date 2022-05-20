@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Neusa next pro regular';
+    src: url('../fontes/NeusaNextPro-Regular.otf');
+}
+@font-face {
+    font-family: 'Neusa next pro wide bold';
+    src: url('../fontes/NeusaNextPro-WideBold.otf');
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.area_header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+    margin-top: -48px;
+
+}
+.text_header {
+    max-width: 250px;
+}
+.text_header h2 {
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Neusa next pro wide bold';
+    font-weight: bold;
+}
+.text_header p {
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Neusa next pro wide bold';
+    font-weight: bold;
+    margin: 0px;
+}
+.area_img img {
+    width: 100%;
+    max-width: 660px;
+    height: 100%;
+  
+}
+.container_2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.area_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.text_title {
+    max-width: 880px;
+    width: 100%;
+}
+.text_title p {
+    color: #fff;
+    font-family: 'Neusa next pro regular';
+    font-size: 32px;
+    margin: 0px 20px;
+    font-weight: 100;
+    
+}   
+.area_imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.area_imgs img {
+    max-width: 225px;
+}
+.text_title_2 {
+    z-index: 9999;
+}
+.text_title_2 h2 {
+    color: #fff;
+    font-family: 'Neusa next pro wide bold';
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-bottom: 70px;
+}
+.area_button {
+    max-width: 325px;
+    width: 100%;
+    z-index: 9999;
+}
+.area_button button {
+    background-color: #56c84d;
+    outline: none;
+    height: 60px;
+    max-width: 325px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+.area_button a {
+    text-decoration: none;
+}
+.area_button button p {
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    font-size: 28px;
+    font-family: 'Neusa next pro wide bold';
+    text-transform: uppercase;
+
+}
+.area_img_footer  {
+    margin-top: -180px;
+}
+.area_img_footer img {
+    max-width: 1000px;
+    width: 100%;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #3d6269;
+    height: 96px;
+}
+.area_footer {
+    display: flex;
+    width: 100%;
+    max-width: 760px;
+    align-items: center;
+    justify-content: center;
+}
+.area_footer img {
+    width: 12%;
+}
+.area_footer p {
+    font-size: 22px;
+    font-family: 'Arial';
+    color:#fff;
+    margin: 0px 20px;
+}
+.img_2 {
+    padding:0px 20px;
+}
+@media( max-width:940px ) {
+    .area_header {
+        flex-direction: column-reverse;
+    }
+    .text_header {
+        max-width: 500px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+}
+@media( max-width:760px ) {
+    .area_imgs {
+        flex-direction: column;
+    }
+    .img_2 {
+        padding:20px 20px;
+    }
+    .area_img_footer {
+        margin-top: -30px;
+    }
+
+}
+@media(max-width:440px) {
+    .text_title_2 h2 {
+        margin-bottom: 46px;
+    }
+}
